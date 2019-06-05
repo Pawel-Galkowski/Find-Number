@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Find number</title>
+	<meta name="description" content="Zgadnij liczbe!" />
+	<meta name="keywords" content="gra, zgaduj, liczba, losowe" />
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+
+    <link rel="stylesheet" href="style.css" />
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    
+	<script src="skrypt.js"></script>
+    
+    <script type="text/javascript">
+       window.onload = function load(){
+           document.addEventListener("DOMContentLoaded", function () {
+        document.querySelector("#his").addEventListener("click", insertBefore());
+    });
+       }
+    </script>
+	<head>
+</head>
+
+<body>
+    <main>
+    <article>
+    <form class="form-horizontal">
+    <input type="number" id="last" placeholder="1 - 10000" min="1" max="10000"/>
+        <button type="button" class="btn btn-default" onclick="checkNumber()"><b>Click to check!</b></button> <br/>
+        <b>Try number: </b><input id="try" placeholder="0" disabled />
+    </form>
+        <section>
+        <br/>
+        <b><h2>HISTORY:</h2></b>
+            <h10><b>
+                [<font color="green"> &nbsp;TOO LOW &nbsp;</font><font color="black">||</font><font color="red">&nbsp; TOO HIGH &nbsp;</font>]</b>
+            </h10><br/>
+            <ul type="square" id="his">
+            </ul>
+        </section>
+    </article>
+</main>
+</body>
+</html>

@@ -1,0 +1,72 @@
+body
+{
+	margin: 0px;
+	padding: 0px;
+	overflow: hidden;
+	width:100%;
+    background-color: aliceblue;
+}
+
+article
+{
+    padding-top: 20px;
+    max-width: 320px;
+    width: 100%;
+    margin: auto;
+    position: relative;
+    height: auto;
+    border: none;
+}
+
+main{
+    width: 100%;
+    min-height: 100vh;
+    background: #F1EDE1;
+}
+
+.form-horizontal{
+    background: #2B6BA5;
+    margin: auto;
+    border: 1px dotted;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 5%;
+    display: flex;
+}
+
+.btn-default{
+    margin: 10px 0 0 0px;
+}
+
+#outlineTxt{
+    float: left;
+    display: flex;
+    font-weight: bold;
+    margin:0 5px;
+}
+
+#last{
+    overflow: hidden;
+    width: 80%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+h10{
+    letter-spacing: 1px;
+    font-size: 12px;
+}
+
+#try{
+    width: 20%;
+    height: auto;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+section{
+    text-align: center;
+    align-items: center;
+    margin: auto;
+}
