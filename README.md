@@ -1,13 +1,13 @@
-#Find number
+# Find number
 Sample game created for the mark in school.
 
-##Technology
+## Technology
   - HTML
   - CSS
   - JavaScript
   
-##View
+## View
 Live view is available at this [link](https://pawel-galkowski.github.io/Find-Number/).
 
-##Usage
+## Usage
 Download and open index.html with browser.
