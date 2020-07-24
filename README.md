@@ -1,5 +1,5 @@
 # Find number
-Sample game created for the mark in school.
+Sample game created for the mark in school in 2016.
 
 ## Technology
   - HTML
