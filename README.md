@@ -11,3 +11,6 @@ Live view is available at this [link](https://pawel-galkowski.github.io/Find-Num
 
 ## Usage
 Download and open index.html with browser.
+
+## License
+[ISC](https://choosealicense.com/licenses/isc/)
